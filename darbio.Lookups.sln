@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "darbio.Lookups.Core", "darbio.Lookups\darbio.Lookups.Core.csproj", "{7F8D70EC-276D-4645-B024-A20456D35975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85E65014-F1DC-406B-96F6-41DF4A1695D0}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "darbio.Lookups.Persistence", "darbio.Lookups.Persistence\darbio.Lookups.Persistence.csproj", "{C399CB28-61B1-4473-BBB5-121D3B798932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "darbio.Lookups.Application", "darbio.Lookups.Application\darbio.Lookups.Application.csproj", "{C138C3B3-29E7-48A4-9FA2-338F05597149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F8D70EC-276D-4645-B024-A20456D35975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8D70EC-276D-4645-B024-A20456D35975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8D70EC-276D-4645-B024-A20456D35975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8D70EC-276D-4645-B024-A20456D35975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C399CB28-61B1-4473-BBB5-121D3B798932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C399CB28-61B1-4473-BBB5-121D3B798932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C399CB28-61B1-4473-BBB5-121D3B798932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C399CB28-61B1-4473-BBB5-121D3B798932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C138C3B3-29E7-48A4-9FA2-338F05597149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C138C3B3-29E7-48A4-9FA2-338F05597149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C138C3B3-29E7-48A4-9FA2-338F05597149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C138C3B3-29E7-48A4-9FA2-338F05597149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
