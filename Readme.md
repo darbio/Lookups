@@ -12,7 +12,7 @@ Take the example of an Organization. In our domain, Organizations have a name, a
 
 * Private Enterprise
 * Government
-* Not for profit
+* Not for Profit
 
 Historically, this relationship would probably have been either:
 
@@ -32,16 +32,16 @@ Each method has drawbacks:
 
 * An interface is required to maintain the list (CRUD an organization type)
 * You need to either:
-  * Maintain a relationship on an object. In a RDMS world, this is easy, but what if you are using NoSQL? Relationships in NoSQL are not [wunderbar](http://en.wiktionary.org/wiki/wunderbar).
+  * Maintain a relationship on an object. In a RDBMS world, this is easy, but what if you are using NoSQL? Relationships in NoSQL are not [wunderbar](http://en.wiktionary.org/wiki/wunderbar).
   * Maintain the object inside the NoSQL entity. This can lead to problems with data being out of sync.
 
 ## The solution
 
 ### Background
 
-When I'm modelling (domain model, not catwalk... I gave that up) I like to try and keep as much of the domain model in [POCO form](http://en.wikipedia.org/wiki/Plain_Old_CLR_Object).
+When I'm modelling (domain model, not catwalk... I gave that up), I like to try and keep as much of the domain model in [POCO form](http://en.wikipedia.org/wiki/Plain_Old_CLR_Object).
 
-Relationships are mapped as references to other types, as per this pseudocode, which represents an prganization with an array of employees, and an organization type:
+Relationships are mapped as references to other types, as per this pseudocode, which represents an organization with an array of employees, and an organization type:
 
 ```
 class organization {
